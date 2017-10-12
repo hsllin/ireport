@@ -1,0 +1,111 @@
+#overview{
+	width: 800px;
+	height: 600px;
+	border: 1px solid gray;
+	overflow: hidden;
+}
+#overviewleft{
+	width: 240px;
+	height: 600px;
+	float: left;
+	margin-top: 10px;
+}
+#overviewleft li a{
+	text-decoration: none;
+	font-family: "微软雅黑" arial;
+	color: black;
+	font-size: 12px;
+	display: block;
+	margin-left: 10px;
+}
+.overviewdownload{
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.choose1,.choose2{
+	width: 200px !important;
+	height: 30px !important;
+	display: inline-block !important;
+	margin-left: 10px !important;
+}
+.dateStart,.datend{
+	display: inline-block;
+	width: 200px;
+	height: 30px;
+	vertical-align: top;
+	margin-left: 10px;
+}
+.dateStart input,.datend input{
+	font-size: 12px;
+	width: 200px;
+	height: 30px;
+}
+/*报表*/
+#overviewright,
+#YeConsignmentInfoOverview,
+#YeAsynchronousInfoOverview,
+#YeRefundInfoOverview,
+#YeOnlineGoodsDownloadReportOverview,
+#YeReturnRequestInfoOverview,
+#YeCustomerReturnRateReport,
+#YeStockOutOverView,
+#YeOrderLifecycleOverview,
+#YeOrderLifecycleDetailOverView,
+#YeRepeatOrderInfoOverview,
+#YeRecGapProc4Report,
+#YeInventoryOverView{
+	width: 620px;
+	/*height: 730px;*/
+	/*width: 100%;*/
+	height: 100%;
+	/*background-color: ghostwhite;*/
+	float: left;
+	font-size: 12px;
+}
+#YeConsignmentInfoOverview span,
+#YeAsynchronousInfoOverview span,
+#YeRefundInfoOverview span,
+#YeOnlineGoodsDownloadReportOverview span,
+#YeReturnRequestInfoOverview span,
+#YeCustomerReturnRateReport span,
+#YeStockOutOverView span,
+#YeOrderLifecycleOverview span,
+#YeOrderLifecycleDetailOverView span,
+#YeRepeatOrderInfoOverview span,
+#YeRecGapProc4Report span,
+#YeInventoryOverView span{
+	margin-left: 30px;
+}
+#YeConsignmentInfoOverview hr,
+#YeAsynchronousInfoOverview hr,
+#YeRefundInfoOverview hr,
+#YeOnlineGoodsDownloadReportOverview hr,
+#YeReturnRequestInfoOverview hr,
+#YeCustomerReturnRateReport hr,
+#YeStockOutOverView hr,
+#YeOrderLifecycleOverview hr,
+#YeOrderLifecycleDetailOverView hr,
+#YeRepeatOrderInfoOverview hr,
+#YeRecGapProc4Report hr,
+#YeInventoryOverView hr{
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+#YeConsignmentInfoOverview select,
+#YeAsynchronousInfoOverview select,
+#YeRefundInfoOverview select,
+#YeOnlineGoodsDownloadReportOverview select,
+#YeReturnRequestInfoOverview select,
+#YeCustomerReturnRateReport select,
+#YeStockOutOverView select,
+#YeOrderLifecycleOverview select,
+#YeOrderLifecycleDetailOverView select,
+#YeRepeatOrderInfoOverview select,
+#YeRecGapProc4Report select,
+#YeInventoryOverView select{
+	width: 150px;
+	height: 30px;
+	display: inline-block;
+	margin-left: 150px;
+	font-size: 12px;
+}
